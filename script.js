@@ -7,11 +7,11 @@ document.addEventListener('DOMContentLoaded', function () {
       input: document.getElementById('firstName'),
       error: document.getElementById('firstNameError'),
       validate: function (value) {
-        if (value.trim() === '') return "Введіть ім'я.";
-        if (value.trim().length < 2) return "Ім'я має містити щонайменше 2 символи.";
+        if (value.trim() === '') return "Це поле є обов'язковим.";
+        if (value.trim().length < 2) return "Ім'я занадто коротке (мінімум 2 символи).";
         return '';
-      }
-    },
+  }
+},
     lastName: {
       input: document.getElementById('lastName'),
       error: document.getElementById('lastNameError'),
