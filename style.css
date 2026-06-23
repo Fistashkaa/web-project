@@ -90,6 +90,7 @@ input:focus {
 
 input.invalid {
   border-color: var(--color-error);
+  background-color: rgba(214, 51, 76, 0.05);
 }
 
 .error-message {
