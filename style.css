@@ -1,11 +1,11 @@
 :root {
-  --color-bg: #1a1b26;
-  --color-card: #24273a;
-  --color-primary: #8b5cf6;
-  --color-primary-dark: #7c3aed;
-  --color-text: #e0e0f0;
-  --color-muted: #9aa0c0;
-  --color-border: #3a3d54;
+  --color-bg: #f3f4f8;
+  --color-card: #ffffff;
+  --color-primary: #3a5cdb;
+  --color-primary-dark: #2c46ad;
+  --color-text: #232634;
+  --color-muted: #6b7080;
+  --color-border: #d8dbe6;
   --color-error: #d6334c;
   --color-success: #1f9d55;
   --radius: 10px;
